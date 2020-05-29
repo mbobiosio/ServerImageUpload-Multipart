@@ -4,9 +4,7 @@
 include "config.php";
 
 
-
-if($_SERVER['REQUEST_METHOD'] == 'POST')
-{
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
    
    
     $target_dir = "../images/";  
